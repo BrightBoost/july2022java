@@ -9,8 +9,15 @@ public class ElectricalScooter extends Vehicle {
         this.dangerous = dangerous;
     }
 
-    @Override
     public void sayVroom() {
+        System.out.println("zjoef zoef");
+    }
+
+    public void sayVroom(String s, int i) {
+        System.out.println("zjoef zjoef");
+    }
+
+    public void sayVroom(int hoi, String s) {
         System.out.println("zjoef zjoef");
     }
 }
