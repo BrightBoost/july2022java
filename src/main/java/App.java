@@ -6,6 +6,8 @@ public class App {
         car1.setEngine(engine);;
         user.setCar(new Car());
         user.getCar().setEngine(engine);
+        car1.setColor("purple");
+        System.out.println(car1.getColor());
 
         // hp van auto van user aanpassen
         user.getCar().getEngine().setHp(100);

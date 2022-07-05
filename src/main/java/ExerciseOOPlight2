@@ -1,0 +1,8 @@
+Maak een person class met 4 relevante eigenschappen
+Maak een dog class met 3 relevante eigenschappen waaronder naam
+Werk netjes met private properties en getters en setters
+
+Geef person een dog
+
+In een main method, maak een persoon aan en geef die een hond
+print de naam van de hond
