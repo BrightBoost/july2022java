@@ -1,0 +1,9 @@
+Vehicle class
+Maak twee nieuwe child classes: boat & segway
+Geef vehicle 2 nieuwe methodes:
+- makeNoise
+- start
+
+Override deze methodes voor de nieuwe child classes
+
+Roep ze aan vanuit de main

@@ -17,4 +17,17 @@ public class Car extends Vehicle {
     public void setEngine(Engine engine) {
         this.engine = engine;
     }
+
+    public boolean autoPark(){
+        System.out.println("beep beep");
+        return true;
+    }
+
+    public String getCurrentLocation() {
+        return "Ik ben hier!";
+    }
+
+    public void changeStation(double station) {
+        System.out.println("Changing to " + station + "FM");
+    }
 }

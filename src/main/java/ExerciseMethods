@@ -1,0 +1,6 @@
+Geef person een geboortejaar
+Maak een methode die op basis van het geboortejaar
+de hoogste leeftijd dit jaar uitrekent
+
+Geef person een groet methode die een string naam
+als input neemt. Print "hoi *naam*"
