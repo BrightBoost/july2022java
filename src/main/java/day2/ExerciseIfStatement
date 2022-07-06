@@ -1,0 +1,21 @@
+Customer aanmaken, een PersonalCustomer en BusinessCustomer
+Geef ze 8 zinnige eigenschappen
+Geef ze 2 zinnige methodes
+
+Maak een class Account
+Geef account 4 zinnige eigenschappen
+En twee zinnige methode: withdraw & deposit
+Geef customer een account
+
+Maak alles aan in een main
+
+
+*** if statement
+Geef account een minimumbalance en een maximaal withdraw en deposit bedrag
+Bij withdraw en deposit method, check of het niet groter is dan maximaal bedrag en of  het niet onder
+minimumbalance komt
+
+*** if statement bonus opdracht
+- geef een customer een VIP status als diens saldo boven een in te stellen bedrag komt
+- geef een zakelijk account een status grootbedrijf, die groter is als het aantal werknemers boven
+een in te stellen aantal komt
