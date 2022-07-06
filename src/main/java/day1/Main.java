@@ -1,5 +1,4 @@
-import java.time.LocalDate;
-import java.util.WeakHashMap;
+package day1;
 
 public class Main {
     public static void main(String[] args) {

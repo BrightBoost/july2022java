@@ -1,3 +1,5 @@
+package day1;
+
 public class Engine {
     private int hp;
     private int nrOfCylinders;

@@ -1,3 +1,5 @@
+package day1;
+
 public class RekenUtil {
     public double addTwoNumber(Double a, Double b) {
         System.out.println("wrapper classes");

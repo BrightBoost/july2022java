@@ -1,3 +1,5 @@
+package day1;
+
 public class Vehicle {
     private String color;
     private String brand;

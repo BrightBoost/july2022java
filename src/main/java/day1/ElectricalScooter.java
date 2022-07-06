@@ -1,3 +1,5 @@
+package day1;
+
 public class ElectricalScooter extends Vehicle {
     private boolean dangerous = true;
 

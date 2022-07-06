@@ -1,0 +1,10 @@
+Customer aanmaken, een PersonalCustomer en BusinessCustomer
+Geef ze 8 zinnige eigenschappen
+Geef ze 2 zinnige methodes
+
+Maak een class Account
+Geef account 4 zinnige eigenschappen
+En twee zinnige methode: withdraw & deposit
+Geef customer een account
+
+Maak alles aan in een main
