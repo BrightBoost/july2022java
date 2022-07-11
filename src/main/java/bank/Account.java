@@ -6,8 +6,8 @@ public class Account {
     private boolean active;
     private Customer customer;
     private String savingsAccountNumber;
-    private double maxWithdrawalAmount;
-    private double maxDeposit;
+    public static double maxWithdrawalAmount = 12000;
+    public static double maxDeposit = 12000;
     private double minimumBalance;
 
     public double changeBalance(double amount) {

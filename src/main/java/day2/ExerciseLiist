@@ -1,0 +1,6 @@
+Maak een lijst met je favoriete soorten fruit
+Maak een lijst met je lievelingsgetallen
+
+** maak een lijst met de priemgetallen uit het vorige voorbeeld op de volgende manier:
+- vul in een loop een lijst van 0 - 100
+- remove de niet priemgetallen
