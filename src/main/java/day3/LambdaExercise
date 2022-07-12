@@ -1,0 +1,5 @@
+implementeer 2 predicate
+- string: kijk of de string gelijk is aan "hoi"
+    roep de test van deze predicate aan
+- integer: kijk of de integer groter is dan 10
+    roep de test van deze predicate aan
