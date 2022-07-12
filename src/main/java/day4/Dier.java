@@ -10,7 +10,6 @@ public class Dier {
         this("max");
     }
 
-
     private String naam;
 
     public String getNaam() {
@@ -19,5 +18,12 @@ public class Dier {
 
     public void setNaam(String naam) {
         this.naam = naam;
+    }
+
+    @Override
+    public String toString() {
+        return "Dier{" +
+                "naam='" + naam + '\'' +
+                '}';
     }
 }
