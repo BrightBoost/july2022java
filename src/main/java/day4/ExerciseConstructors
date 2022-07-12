@@ -1,0 +1,7 @@
+- Create a class vehicle
+- Give Vehicle a color
+- Create a class car
+- Give car a nr of wheels
+
+- Give both two constructors: default and with their property
+- Make sure all properties are always set (default values allowed)

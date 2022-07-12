@@ -29,11 +29,11 @@ public class MapExample {
             System.out.println(hobbiesCursisten.get(key));
         }
 
+        System.out.println(hobbiesCursisten.entrySet());
         // entryset
         for(Map.Entry<String, String> entry : hobbiesCursisten.entrySet()) {
             System.out.println(entry.getKey() + " = " + entry.getValue());
         }
-
 
     }
 

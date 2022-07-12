@@ -1,0 +1,6 @@
+- Create a map for coding languages and difficulty level
+(string string)
+- Add 4 entries using the map add equivalent
+- If the map contains Java, print the difficulty
+- Loop over the map and print the key value pairs,
+separated with a : (e.g. java : easy)
