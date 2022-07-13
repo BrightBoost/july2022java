@@ -1,0 +1,7 @@
+maak enum grades A, B, C, D, F
+switch schrijven met int als input die enum zet
+cijfers 1 t/m 4 is een F + print slecht gedaan
+cijfer 5 is een D + print net niet
+cijfer 6 is een C + print zo zo
+cijfer 7 is B + print aardig
+cijfer 8,9,10 is een A + print fantastisch

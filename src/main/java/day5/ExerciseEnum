@@ -1,0 +1,6 @@
+- enum voor dagen van de week maken, geef de dagen een nummer
+- enum voor maanden van het jaar maken, geef de maanden een nummer
+- class datum aanmaken
+- geef datum een dag van de week, maand van het jaar, jaartal en
+dag van de maand
+- maak een datum aan in main

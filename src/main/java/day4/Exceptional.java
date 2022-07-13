@@ -16,10 +16,30 @@ public class Exceptional {
             e.printStackTrace();
         }
 
+        badExample(3, 0);
+
     }
 
     public static void doSomething() throws SQLException {
         throw new SQLException("Oh nee een SQL fout");
+    }
+
+    public static void badExample(int a, int b) {
+        int result = 0;
+        try {
+            result = a / b;
+        } catch (ArithmeticException e) {
+            e.printStackTrace();
+        }
+        System.out.println(result);
+    }
+
+    public static void betterExample(int a, int b) {
+        if(b == 0) {
+            System.out.println("Cannot divide by 0");
+        } else {
+            System.out.println(a / b);
+        }
     }
 
     public static void read(String fileName) {
@@ -37,6 +57,8 @@ public class Exceptional {
         } catch (IOException e) {
             System.out.println("Oh nee! Iets ging mis. Do something!");
         }
+
+
 
         // try with resources
         try(FileReader fr = new FileReader(fileName)) {
