@@ -1,0 +1,4 @@
+- Maak een array van namen
+- zet deze om in een stream
+- plak voor alle namen het woord "deelnemer" mbv map
+- print alle namen
