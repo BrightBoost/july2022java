@@ -1,6 +1,6 @@
 package day5;
 
-public class Chihuahua {
+public class Chihuahua extends Dog {
     private String naam;
 
     public String getNaam() {

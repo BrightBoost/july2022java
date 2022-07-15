@@ -1,0 +1,11 @@
+- We maken een class Animal, Nijlpaard, Otter
+- Geef de klassen een logische inheritance structuur
+- Geef animal een abstract method eat
+- Implementeer deze methode waar nodig
+
+- We gaan interface Predator en Prey aanmaken
+- Predator heeft een abstracte methode catchPrey die een Prey als input neemt
+- Prey heeft een abstracte methode runAndHide
+
+- Voeg twee animals toe
+- Geef de animals de juiste Prey and Predator interface

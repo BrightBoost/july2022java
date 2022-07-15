@@ -1,0 +1,10 @@
+- Maak een class Crate met een generic T
+- Zorg ervoor dat er een property is voor inhoud
+- Geef die inhoud het logische type
+- Maak getter en setter voor property
+
+
+- In een main methode, maak 3 crates aan:
+    - voor giraffe
+    - voor pinguins
+    - voor apparatuur

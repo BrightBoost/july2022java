@@ -1,7 +1,5 @@
 package day5;
 
-import java.util.List;
-
 public class BoodschappenTas {
     private Boodschappen inhoudTas;
 
