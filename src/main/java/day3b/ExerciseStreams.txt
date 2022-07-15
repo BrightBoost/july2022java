@@ -2,3 +2,27 @@
 - zet deze om in een stream
 - plak voor alle namen het woord "deelnemer" mbv map
 - print alle namen
+
+- maak een lijst van integers
+- filter de lijst op oneven getallen >> oneven mag door
+- map de lijst naar de waarde maal 2
+- zorg dat er alleen unieke waardes in zitten
+- sorteer
+- print
+
+- met de lijst van integers
+- map de lijst van ints naar een lijst van booleans, als het een even getal is wordt het true, anders false
+- sorteer
+- print
+
+- met de lijst van integers
+- zet de lijst om naar de waarde maal 4
+- filter op deelbaar door 3 (zonder restwaarde) i % 3 == 0
+- en doe een allmatch op groter dan 5
+- sla het resultaat van deze stream op in boolean
+
+- met de namenlijst
+- zet de naam om in de lengte van de naam
+- filter op even getallen
+- doe een anymatch op gelijk aan 4
+- sla het resultaat op in een boolean

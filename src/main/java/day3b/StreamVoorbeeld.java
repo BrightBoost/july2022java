@@ -43,5 +43,10 @@ public class StreamVoorbeeld {
                 .allMatch(i -> i > 0);
         System.out.println(match);
 
+        integerList.stream()
+                .map(i -> i % 2 == 0)
+                .sorted()
+                .forEach(i -> System.out.println(i));
+
     }
 }

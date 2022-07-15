@@ -59,5 +59,7 @@ public class StreamExamples {
                 .sorted()
                 .forEach(i -> System.out.println(i));
 
+
+
     }
 }
