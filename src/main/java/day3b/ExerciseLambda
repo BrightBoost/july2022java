@@ -1,0 +1,15 @@
+- maak een functional interface Transformer
+- geef het een abstracte methode transform
+- transform geeft een int terug en neemt een string als input
+
+- maak een mainlambda class aan, geef dit een main methode
+- in de main methode, schrijf 2 lambda's voor transform:
+    - return het aantal letters van de input string
+    - return het aantal letters keer twee
+    - optioneel:
+       return het nummer van de eerste letter van de string obv positie in het alfabet (a = 1, b =2 etc) (tip ascii)
+
+- in de main methode, roep de methode transform aan op de lambdas
+- maak een nieuwe static methode "transformStuff" die een Transformer als input neemt en niets returnt
+- in de methode, roep de transform aan op de input, en print het resultaat
+- roep de methode transformSTuff aan met beide (of alle) transformers

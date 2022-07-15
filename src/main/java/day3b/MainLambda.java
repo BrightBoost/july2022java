@@ -1,5 +1,7 @@
 package day3b;
 
+import java.util.Locale;
+
 public class MainLambda {
     public static void main(String[] args) {
         Calculator c1 = (a, b) -> a + b;
@@ -34,6 +36,9 @@ public class MainLambda {
         calcSomething(c1, 4, 5);
         calcSomething(c2, 3, 4);
         calcSomething(c3, 6, 7);
+
+        String s = "blabla";
+        System.out.println(s.toLowerCase().getBytes()[0] - 96);
     }
 
     public static void doSomething(Printer printer) {
