@@ -23,5 +23,24 @@ public class MainLambda {
 
         double result3 = c3.calc(1, 2);
         System.out.println(result3);
+
+        Printer p = s -> System.out.println(s);
+        p.print("Hoi!!");
+
+        Printer p2 = s -> System.out.println("result:" + s);
+        p2.print("Hoi!!");
+
+        doSomething(p2);
+        calcSomething(c1, 4, 5);
+        calcSomething(c2, 3, 4);
+        calcSomething(c3, 6, 7);
+    }
+
+    public static void doSomething(Printer printer) {
+        printer.print("Do something");
+    }
+
+    public static void calcSomething(Calculator calculator, double x, double y) {
+        System.out.println(calculator.calc(x, y));
     }
 }
